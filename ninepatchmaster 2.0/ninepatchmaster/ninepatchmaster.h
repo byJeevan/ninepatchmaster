@@ -1,8 +1,11 @@
 //
 //  ninepatchmaster.h
 //  ninepatchmaster
+//  version 2.0
 //
 //  Created by jeevanRao7 on 30/07/15.
+//
+//  Updated by JeevanRao7 on 10/10/15
 //
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
@@ -26,30 +29,15 @@
 
 @interface ninepatchmaster : NSObject
 
-/** Returns the normal image from the nine patch image by croping the black corner lines from the nine patch image.
-  * @param `ninePatchImage` is the nine patch image
-  * @return normal image that can be assigned to image view.
-  */
-+ (UIImage*)createResizableNinePatchImage:(UIImage*)ninePatchImage;
-
-/** Returns the edges 'top', 'left', 'bottom', 'right' from the lines of the nine patch.
- * @param `ninePatchImage` is the nine patch image
- * @return Mutable array containing nine patch corners.
- */
-+ (NSMutableDictionary *)returnCapInsetsForTextPadding:(UIImage *)ninePatchImage;
-
 /**  Will use edge values from nine patch image and expands or shrinks according to text size.
-  *  @param `labelView` is the place where text added is gets occupied in expandable area of nine patch image.
-  *  @param `scrollView` is the parent of labelview and it manages the scrolling of lable view when text lines exceeded from expandable area of nine patch image. also it is the subview of the image view.
-  *  @param `imageView` is the image view object where nine patch image will be assigned after removing its black lines/marks at the corners.
-  *  @param `availableHeight` is a float value upon which image view height decided.
-  *  @param `instructionText` string for the lable view. This can be normal text or attributes text.
-  *  @param `ninePatchImageName` nine patch image name in the format of "myphoto.9" if the image file 'myphoto.9.png'.
-  *  @param `imageViewOrigin` Y value of image view frame.
-  *  @param `targetView` target view is the parent view of all these views.
+  *
+  *  @param `imageNinePatch` nine patch image in the format eg. of "myphoto.9" if the image file 'myphoto.9.png'.
+  *  @param `text` text in the format of NSString that will be added over background image view.
+  *  @param `view` parent view for the image view.
   *
   */
-+ (void) applyNinePathImageForLabel:(UILabel *) labelView scrollView:(UIScrollView *) scrollView imageView:(UIImageView *) imageView availableHeight:(float) availableHeight instructionText:(NSString *) instructionText ninePatchImageName:(NSString *) ninePatchImageName  imageViewOrigin:(float) imageViewOrigin  forView:(UIView *) targetView;
+
++ (void) applyNinePatchImage: (UIImage *)imageNinePatch withText:(NSString *) text forView:(UIView *) view;
 
 @end
 

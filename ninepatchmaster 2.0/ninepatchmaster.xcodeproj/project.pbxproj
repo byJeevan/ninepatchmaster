@@ -17,6 +17,7 @@
 		3C21214D1B69D59700972D91 /* transparent_scroll_paper.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C21214B1B69D59700972D91 /* transparent_scroll_paper.9.png */; };
 		3C21214E1B69D59700972D91 /* common_paper_scroll.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C21214C1B69D59700972D91 /* common_paper_scroll.9.png */; };
 		3C2121511B69D63100972D91 /* ninepatchmaster.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2121501B69D63100972D91 /* ninepatchmaster.m */; };
+		3CF3DAA41B84685900F36510 /* rectangle_box.9.png in Resources */ = {isa = PBXBuildFile; fileRef = 3CF3DAA31B84685900F36510 /* rectangle_box.9.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +34,10 @@
 		3C2121211B69D57100972D91 /* ninepatchmaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ninepatchmaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2121251B69D57100972D91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3C2121261B69D57100972D91 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3C2121281B69D57100972D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		3C2121291B69D57100972D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3C21212B1B69D57100972D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3C21212C1B69D57100972D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C2121281B69D57100972D91 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ninepatchmaster/AppDelegate.h; sourceTree = "<group>"; };
+		3C2121291B69D57100972D91 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ninepatchmaster/AppDelegate.m; sourceTree = "<group>"; };
+		3C21212B1B69D57100972D91 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ninepatchmaster/ViewController.h; sourceTree = "<group>"; };
+		3C21212C1B69D57100972D91 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ninepatchmaster/ViewController.m; sourceTree = "<group>"; };
 		3C21212F1B69D57100972D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3C2121311B69D57100972D91 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3C2121341B69D57100972D91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -47,6 +48,7 @@
 		3C21214C1B69D59700972D91 /* common_paper_scroll.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_paper_scroll.9.png; sourceTree = "<group>"; };
 		3C21214F1B69D63100972D91 /* ninepatchmaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ninepatchmaster.h; sourceTree = "<group>"; };
 		3C2121501B69D63100972D91 /* ninepatchmaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ninepatchmaster.m; sourceTree = "<group>"; };
+		3CF3DAA31B84685900F36510 /* rectangle_box.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rectangle_box.9.png; path = ../rectangle_box.9.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,10 @@
 		3C2121181B69D57100972D91 = {
 			isa = PBXGroup;
 			children = (
+				3C2121281B69D57100972D91 /* AppDelegate.h */,
+				3C2121291B69D57100972D91 /* AppDelegate.m */,
+				3C21212B1B69D57100972D91 /* ViewController.h */,
+				3C21212C1B69D57100972D91 /* ViewController.m */,
 				3C2121231B69D57100972D91 /* ninepatchmaster */,
 				3C21213D1B69D57100972D91 /* ninepatchmasterTests */,
 				3C2121221B69D57100972D91 /* Products */,
@@ -89,10 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				3C21214A1B69D58400972D91 /* Images */,
-				3C2121281B69D57100972D91 /* AppDelegate.h */,
-				3C2121291B69D57100972D91 /* AppDelegate.m */,
-				3C21212B1B69D57100972D91 /* ViewController.h */,
-				3C21212C1B69D57100972D91 /* ViewController.m */,
 				3C21214F1B69D63100972D91 /* ninepatchmaster.h */,
 				3C2121501B69D63100972D91 /* ninepatchmaster.m */,
 				3C2121241B69D57100972D91 /* Supporting Files */,
@@ -134,6 +136,7 @@
 			children = (
 				3C21214B1B69D59700972D91 /* transparent_scroll_paper.9.png */,
 				3C21214C1B69D59700972D91 /* common_paper_scroll.9.png */,
+				3CF3DAA31B84685900F36510 /* rectangle_box.9.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -222,6 +225,7 @@
 				3C2121351B69D57100972D91 /* LaunchScreen.xib in Resources */,
 				3C2121321B69D57100972D91 /* Images.xcassets in Resources */,
 				3C21214D1B69D59700972D91 /* transparent_scroll_paper.9.png in Resources */,
+				3CF3DAA41B84685900F36510 /* rectangle_box.9.png in Resources */,
 				3C21214E1B69D59700972D91 /* common_paper_scroll.9.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -372,6 +376,7 @@
 				INFOPLIST_FILE = ninepatchmaster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeevanrao7.ninepatchmaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -383,6 +388,7 @@
 				INFOPLIST_FILE = ninepatchmaster/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jeevanrao7.ninepatchmaster;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -440,6 +446,7 @@
 				3C2121461B69D57100972D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C2121471B69D57100972D91 /* Build configuration list for PBXNativeTarget "ninepatchmasterTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +455,7 @@
 				3C2121491B69D57100972D91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

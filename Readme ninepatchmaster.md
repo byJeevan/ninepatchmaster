@@ -1,33 +1,17 @@
 # Nine Patch Master
-Nine patch master is a fully functional Objectve-C library for iOS. It make use of left, right, top, bottom edge values from given nine patch image and creates expandable area according to text size/frame.
+Nine patch master is a fully functional Objective-C library for iOS. It make use of left, right, top, bottom edge values from given nine patch image and creates expandable area according to text size/frame.
  
 ### Version
-1.0.0
+2.0.0
 
 ### Usage
-Create  3 key views in your ViewController.
-     
-    UIImageView * imageView;
-    UIScrollView * scrollView;
-    UILabel * lableView;
+ 
+In viewDidLayoutSubviews, 
 
-Note : Don't forget to add scroll view delegate !
+Call applyNinePatchImage method with text and nine patch image as the parameters.
 
-In viewDidLoad, allocate these views.
-
-    imageView = [[UIImageView alloc] init];
-    [self.view addSubview:imageView];
-    scrollView = [[UIScrollView alloc] init];
-    [imageView addSubview:scrollView];
-    scrollView.delegate = self;
-    lableView = [[UILabel alloc] init];
-    [scrollView addSubview:lableView];
-
-In viewDidLayoutSubviews, call the applyNinePathImageForLabel method
-
-    + (void) applyNinePathImageForLabel:(UILabel *) labelView scrollView:(UIScrollView *) scrollView imageView:(UIImageView *) imageView availableHeight:(float) availableHeight instructionText:(NSString *) instructionText ninePatchImageName:(NSString *) ninePatchImageName  imageViewOrigin:(float) imageViewOrigin  forView:(UIView *) targetView
-
++ (void) applyNinePatchImage : (UIImage *)imageNinePatch withText:(NSString *) text forView:(UIView *) view
 
 ### Installation
-Add the `ninepatchmaster.h` and `ninepatchmaster.m`  files into your project. Import ninePatchMaster class.
+Add the `ninepatchmaster.h` and `ninepatchmaster.m`  files into your project. Import ‘ninepatchmaster.h’ in your class.
  

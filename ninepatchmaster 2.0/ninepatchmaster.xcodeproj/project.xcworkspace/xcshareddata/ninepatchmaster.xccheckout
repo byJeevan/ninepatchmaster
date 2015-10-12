@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E231F2D-7CB8-49BC-B1BF-EDBD747DEB1C</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ninepatchmaster</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4085BD3FAC1A20B33C141D7C94637ACC69F5CCDB</key>
+		<string>https://github.com/jeevanRao7/ninepatchmaster.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ninepatchmaster 2.0/ninepatchmaster.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4085BD3FAC1A20B33C141D7C94637ACC69F5CCDB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jeevanRao7/ninepatchmaster.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4085BD3FAC1A20B33C141D7C94637ACC69F5CCDB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4085BD3FAC1A20B33C141D7C94637ACC69F5CCDB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ninepatchmaster</string>
+		</dict>
+	</array>
+</dict>
+</plist>
